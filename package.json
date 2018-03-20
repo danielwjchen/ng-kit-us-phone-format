@@ -1,6 +1,6 @@
 {
   "name": "@ng-kit/us-phone-format",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A angular filter that converts string to us phone format.",
   "keywords": [
     "angular",
