@@ -1,0 +1,30 @@
+{
+  "name": "@ng-kit/us-phone-format",
+  "version": "1.0.0",
+  "description": "A angular filter that converts string to us phone format.",
+  "keywords": [
+    "angular",
+    "bootstrap"
+  ],
+  "author": "daniel@inquiresimplicity.com",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "1.5"
+  },
+  "files": [
+    "index.js",
+    "dist/",
+    "src/"
+  ],
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-uglify": "^3.1.0",
+    "grunt-contrib-watch": "^1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github:s1300045/ng-kit-us-phone-filter.git"
+  }
+}
