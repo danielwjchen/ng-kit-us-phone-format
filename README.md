@@ -15,14 +15,14 @@ npm install -g grunt-cli@1.2.0 grunt@0.4.5 npm@3.8.6
 This filter expects a single string of only numbers, e.g. `5551234567` and converts it to `(555) 123-4567`.
 
 ### In Template
-```HTML
+```html
 <p>{{'5551234567' | usPhoneFormat}}</p>
 <!-- Outputs <p>(555) 123-4567</p> -->
 ```
 
 ### In Controller
 
-```JavaScript
+```javascript
 function exampleController($filter) {
     $filter('usPhoneFormat', '5551234567'); // Outputs (555) 123-4567
 };
